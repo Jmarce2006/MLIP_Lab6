@@ -22,7 +22,7 @@ pipeline {
                 conda activate mlip
 
                 # Run the tests
-                pytest
+                conda run -m mlip pytest
 
                 echo 'Pytest finished'
                 '''
