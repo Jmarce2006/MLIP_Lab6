@@ -21,9 +21,6 @@ pipeline {
                 # Activate the conda environment
                 #conda activate mlip
 
-                # Install pandas in case it's missing (safe to rerun)
-                /opt/conda/bin/conda install -n mlip pandas scikit-learn -y
-
                 # Run the tests
                 /opt/conda/bin/conda run -n mlip pytest
 
