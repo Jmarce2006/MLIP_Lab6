@@ -16,10 +16,10 @@ pipeline {
                 echo 'Test Step: We run testing tool like pytest here'
 
                 # Source the conda init script
-                source /opt/conda/etc/profile.d/conda.sh
+                # source /opt/conda/etc/profile.d/conda.sh
 
                 # Activate the conda environment
-                conda activate mlip
+                #conda activate mlip
 
                 # Run the tests
                 conda run -n mlip pytest
