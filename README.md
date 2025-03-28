@@ -77,3 +77,10 @@ Notice that there is file named `test_utility.py` in our repo. Pytest will recur
 ## Additional Resources
 - [Set up Jenkins Pipeline in SCM](https://www.jenkins.io/doc/book/pipeline/getting-started/#defining-a-pipeline-in-scm)
 - [Use conda in Jenkins](https://devops.stackexchange.com/questions/10421/unable-to-run-conda-activate-from-jenkins-pipeline)
+
+
+### Screenshots
+
+![alt text](image-1.png)
+
+![alt text](image.png)
